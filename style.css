@@ -6,27 +6,30 @@
 }
 
 body {
-    display: flex;
+    background: url('image/w1600.png');
+    /* display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #0a3c2f;
+    background: #0a3c2f; */
 }
 
 .container {
+    margin-right: 300px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background: #0d614b;
+    /* background: #0d614b; */
     padding: 40px 60px;
 }
 
 h2 {
+    margin-right: 150px;
     font-size: 3em;
-    color: #fff;
+    color: #209d7b;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
